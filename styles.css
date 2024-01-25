@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
+/*Reseteo*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+}
+
+.card-container {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-container__header img {
+  border-radius: 15px;
+}
+.card-container__title {
+  margin-top: 16px;
+}
+.card-container__learning {
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px 16px;
+  border-radius: 5px;
+  font-size: 0.6em;
+  font-weight: 800;
+}
+.card-container__published {
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+.card-container__H1 {
+  margin-top: 16px;
+}
+.card-container__description {
+  margin-top: 16px;
+  line-height: 25px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: hsl(0, 0%, 50%);
+}
+.card-container__avatar-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.card-container__img {
+  width: 40px;
+}
+.card-container__avatar-name {
+  font-weight: 800;
+}
+
+.main-container {
+  width: 380px;
+  height: auto;
+  background: hsl(0, 0%, 100%);
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 15px;
+  box-shadow: 10px 10px black;
+  overflow: hidden;
+  position: relative;
+}
+
+body {
+  background: hsl(47, 88%, 63%);
+}
+
+/*# sourceMappingURL=styles.css.map */

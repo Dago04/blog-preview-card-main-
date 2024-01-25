@@ -1,0 +1,52 @@
+@use "variables" as v;
+
+.card-container {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__header img {
+    border-radius: 15px;
+  }
+
+  &__title {
+    margin-top: 16px;
+  }
+  &__learning {
+    background-color: v.$Yellow;
+    padding: 5px 16px;
+    border-radius: 5px;
+    font-size: 0.6em;
+    font-weight: 800;
+  }
+
+  &__published {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 0.9em;
+  }
+
+  &__H1 {
+    margin-top: 16px;
+  }
+  &__description {
+    margin-top: 16px;
+    line-height: 25px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    color: v.$Grey;
+  }
+
+  &__avatar-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__img {
+    width: 40px;
+  }
+  &__avatar-name {
+    font-weight: 800;
+  }
+}

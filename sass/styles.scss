@@ -1,0 +1,19 @@
+@use "initial";
+@use "variables" as v;
+@use "card-container";
+
+.main-container {
+  width: 380px;
+  height: auto;
+  background: v.$White;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 15px;
+  box-shadow: 10px 10px black;
+  overflow: hidden;
+  position: relative;
+}
+
+body {
+  background: v.$Yellow;
+}
